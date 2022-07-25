@@ -3,8 +3,11 @@
     "name": "rockethelp",
     "slug": "rockethelp",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["@react-native-firebase/app"],
+    "android": {
+      "package": "com.brunozielinski.rockethelp",
+      "googleServicesFile": "./google-services.json"
+    }
   }
 }
